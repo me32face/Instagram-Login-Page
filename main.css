@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login-container{
+    border: 2px solid #dbdbdb;
+    width: 360px;
+    padding: 50px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.instagram_image{
+    width: 200px; height: 80px;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#submit_details{
+    width: 100%;
+    background-color: #009dff;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+}
+
+#submit_details:hover{
+    background-color: #047cc7;
+    cursor: pointer;
+}
+
+h3{
+    color: #959595;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+h3::before,
+h3::after{
+    content:"";
+    background: #dbdbdb;
+    flex: 1;
+    height: 1px;
+    margin: 0 10px 0 0;
+}
+
+h3::after {
+    margin: 0 0 0 10px; /* Adds spacing on the right side for ::after */
+}
+
+.fb{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb_img{
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+}
+
+.fb_link{
+    font-weight: 550;
+    font-size: 15px;
+    text-decoration: none;
+    color: #042da9;
+}
+
+.fb_link:hover{
+    color: #031423;
+}
+
+.forgot_pwd{
+    font-size: 13px;
+    text-decoration: none;
+    color: #041c64;
+}
+
+.forgot_pwd:hover{
+    color: #0040ff;
+}
+
+.signup-container{
+    border: 2px solid #dbdbdb;
+    width: 360px;
+    padding: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-container p{
+    font-size: 14px;
+}
+
+.signup-container a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0a74b6;
+}
+
+.signup-container a:hover{
+    color: #12065a;
+}
